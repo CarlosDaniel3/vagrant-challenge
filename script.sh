@@ -1,17 +1,7 @@
 #!/bin/bash
 
-apt update
-apt install -y vim
-apt install -y curl
-apt install telnet
-apt install unzip
-apt install wget
-apt install net-tools
-apt install htop
-apt install -y nmap
+apt update && apt install -y vim curl telnet unzip wget net-tools htop nmap
 
 apt install -y nginx
 
-cd /home/
 useradd carlos
-
